@@ -1,0 +1,158 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                -0.1449108123779297,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.11399572342634201,
+                0.17789486050605774,
+                0.15633244812488556,
+                -0.9648411870002747
+            ],
+            "translation" : [
+                0.28115758299827576,
+                3.7274177074432373,
+                -1.1382787227630615
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cube.001",
+            "rotation" : [
+                -0.5974249243736267,
+                -0.013007194735109806,
+                0.8018150329589844,
+                0.0026300407480448484
+            ],
+            "translation" : [
+                -0.5060805082321167,
+                -0.2805439233779907,
+                -0.4539306163787842
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4839168190956116,
+                    0.8000000715255737,
+                    0.7771291732788086,
+                    1
+                ],
+                "metallicFactor" : 0.7714285850524902,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 48,
+            "max" : [
+                0.8288523554801941,
+                0.35192590951919556,
+                1.0000863075256348
+            ],
+            "min" : [
+                -0.8267704844474792,
+                -0.43974417448043823,
+                -1.0027101039886475
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 48,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 48,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 48,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 1152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 1536
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1632,
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ]
+}
